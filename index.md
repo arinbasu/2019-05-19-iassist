@@ -223,6 +223,7 @@ Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
+
 <h2 id="schedule">Schedule</h2>
 
 {% if page.carpentry == "swc" %}
@@ -246,8 +247,9 @@ e.g., '2015-06-10-esu'.
 {% endcomment %}
 
 {% if page.collaborative_notes %}
-<p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+
+<p id="collaborative_notes"> 
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
