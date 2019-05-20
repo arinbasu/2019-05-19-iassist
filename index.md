@@ -215,6 +215,10 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 
 <hr/>
 
+<h2> Collaborative document </h2>
+We will use <a href="http://bit.ly/iassist-sem">Google Docs</a> to maintain our notes for this workshop.
+<p>
+  We will use <a href="https://bit.ly/sem-workshop/"> https://bit.ly/sem-workshop </a> to log in and work for this workshop.  
 
 {% comment %}
 SCHEDULE
@@ -232,25 +236,6 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% include dc/schedule.html %}
 {% elsif page.carpentry == "lc" %}
 {% include lc/schedule.html %}
-{% endif %}
-
-{% comment %}
-
-Collaborative Notes
-
-If you want to use an Etherpad, go to
-
-http://pad.carpentries.org/YYYY-MM-DD-site
-
-where 'YYYY-MM-DD-site' is the identifier for your workshop,
-e.g., '2015-06-10-esu'.
-{% endcomment %}
-
-{% if page.collaborative_notes %}
-
-<p id="collaborative_notes"> 
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for taking notes, and sharing URLs and bits of code.
-</p>
 {% endif %}
 
 <hr/>
@@ -284,16 +269,7 @@ please preview your site before committing, and make sure to run
 
 <hr/>
 
-{% comment %}
-SETUP
 
-Delete irrelevant sections from the setup instructions.  Each
-section is inside a 'div' without any classes to make the beginning
-and end easier to find.
 
-This is the other place where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
 
 
