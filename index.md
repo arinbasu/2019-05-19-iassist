@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
-venue: "IASSIST 2019 Conference UNSW Australia"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "SEM@IASSIST 2019 Conference UNSW Australia"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "John Niland Scientia Building"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "au"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
@@ -218,7 +218,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <h2> Collaborative document </h2>
 We will use <a href="http://bit.ly/iassist-sem">Google Docs</a> to maintain our notes for this workshop.
 <p>
-  We will use <a href="https://bit.ly/sem-workshop/"> https://bit.ly/sem-workshop </a> to log in and work for this workshop.  
+  We will use <a href="https://bit.ly/sem-workshop/"> https://bit.ly/sem-workshop </a> to log in and work for this workshop. For workshop attendees, please use your 'firstname' (in small letters) as your username in the log in box. You can use any password you want. Please jot down the password for future log-ins.  
 
 {% comment %}
 SCHEDULE
